@@ -1,0 +1,31 @@
+body{
+	background-color: #731F2B;
+}
+#header-nav{
+	background-color: #E9DB07;
+	border-radius: 0px;
+	border:0px;
+	height: 150px;
+	margin: -10px;
+	margin-bottom: 20px;
+
+}
+#restphoto{
+	margin:100px;
+	margin-left: 170px;
+	margin-top: 50px;
+}
+#restname{
+	margin-top: 20px;
+	font-style: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #2D84E0;
+	text-shadow: 4px 2px 4px;
+
+}
+a:hover{
+	color: #2DE05B;
+}
+
+}
