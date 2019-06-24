@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:white;
+  
+}
+#restphoto{
+  margin-left: 180px;
+}
+#dish{
+  float: left;
+  margin-left: 180px;
+  margin-top: 60px;
+  margin: 10px solid black;
+}
+
+body{
+  background-color: maroon
+  }
+    .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+}
+@media(max-height: 992px;)
+{
+
+}
+</style>
+<body>
+
+  <nav class="navbar navbar-default" style="background-color: yellow; height: 150px;">
+     <div style="margin-top: 5px; float: left;">
+    
+        <div>
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div id="main">
+            
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+          </div>
+
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+        </div>
+    
+  </div>
+
+    <div class="container">
+      <div class="navbar-brand" style="font-size: 40px;text-shadow: 2px 2px 4px; color: green;">
+       <a href="#">
+        David Chus's China Bistro
+      </a>
+
+      </div>
+
+      <div style="margin-top: 20px;">
+      <div class="pull-right">
+       <a href="info.html">
+         <span class="glyphicon glyphicon-info-sign"></span>
+         <br>Info
+       </a>
+      </div>
+      <div class="pull-right" style="margin-right: 10px;">
+        <a href="menu.html">
+        <span class="glyphicon glyphicon-cutlery"></span>
+        <br>Menu
+      </a>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <img src="kosher.jpg">  
+        Kosher certfied
+    <br>
+    <div class="dropdown btn btn-default ">
+     <span>Dropdown-menu</span>
+     <span class="caret"></span>
+      <div class="dropdown-content">
+      <p style="text-align: left;">
+      <ul>
+        <li>Link</li>
+        
+        <li>Link2</li>
+      </ul>
+      </p>
+      </div>
+    </div>
+  </div>
+ 
+  
+</nav>
+
+</body>
+<div id="restphoto">
+  <img src="restphoto.jpg" width="1000px" height="500px">
+</div>
+<div id="dish">
+  <img src="dish1.jpg" height="200px" width="300px">
+</div>
+<div id="dish" style="margin-left: 100px;">
+  <img src="dish2.jpg" height="200px" width="300px">
+</div>
+
+
+</html>
