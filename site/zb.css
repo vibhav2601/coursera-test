@@ -66,9 +66,7 @@
 	padding-left: 20%;
 	padding-right: 20%;
 }
-#box{
-	
-}
+
 @media screen and (max-width: 600px)
 {
 	#navhead
@@ -85,4 +83,32 @@
 	#logo{
 		display: none;
 	}
+}
+#map {
+        height: 200px;  
+        width: 400px;  
+        
+        margin-right: 100px;
+        margin-left: 10px;
+        padding-top: 50px;
+        float: right;
+        margin-top: 50px;
+       }
+#foot{
+	width: auto;
+	height: 300px;
+	background-color: black;
+	margin-top: 100px;
+}
+#headcont{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
+	background-color: #3EDC66;
+	border-radius: 2px;
+}
+#sec1{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
 }
