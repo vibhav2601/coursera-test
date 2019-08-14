@@ -83,16 +83,23 @@
 	#logo{
 		display: none;
 	}
+	#map{
+		height: 100px;
+		width: 150px;
+		float: right;
+	}
 }
+
+
 #map {
         height: 200px;  
         width: 400px;  
         
-        margin-right: 100px;
+        margin-right: 10px;
         margin-left: 10px;
         padding-top: 50px;
         float: right;
-        margin-top: 50px;
+        margin-top: -50px;
        }
 #foot{
 	width: auto;
