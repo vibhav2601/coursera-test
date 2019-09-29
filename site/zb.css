@@ -41,6 +41,12 @@
   font-size: 36px;
   margin-left: 50px;
 }
+#logo
+{
+	float: right;
+	position: relative;
+
+}
 
 #main {
   transition: margin-left .5s;
@@ -55,6 +61,7 @@
 #cont{
 	background: url('s.jpg' ); 
 	background-repeat: no-repeat;
+  background-attachment: fixed;
 	width: auto;
 	height: auto;
 	height: 600px;
@@ -67,7 +74,7 @@
 	padding-right: 20%;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 300px)
 {
 	#navhead
 	{
@@ -84,8 +91,8 @@
 		display: none;
 	}
 	#map{
-		height: 100px;
-		width: 150px;
+		height: 20%px;
+		width: 30%px;
 		float: right;
 	}
 }

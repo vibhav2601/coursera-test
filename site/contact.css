@@ -146,3 +146,29 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+#acti{
+	width: 45%;
+	height: 45%;
+	float: left;
+	margin: 2%;
+	border: 4px solid black;
+}
+#marginact{
+	border-left: 7%;
+	border-right: 7%;
+	padding: 10%;
+	margin: 4px 4px 4px 4px solid black;
+
+}
+#image-text{
+	color: black;
+	margin-top: 40px;
+	background-color: #3EDC66;
+}
+#readmore{
+	position: absolute; 
+	top: 50%;  
+	left: 50%;  
+	color: white;
+	background-color: red;
+}
