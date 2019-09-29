@@ -58,7 +58,25 @@ body{
   transition: margin-left .5s;
   padding: 16px;
 }
+#img-act{
+	margin: 4px solid black;
+	height:300px; 
+	width:600px;
 
+}
+#image-text{
+	color: black;
+	margin-top: 40px;
+	background-color: #3EDC66;
+	width: auto;
+}
+
+#image-text2{
+	color: black;
+	margin-top: 40px;
+	background-color: #3EDC66;
+	width: auto;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -74,15 +92,30 @@ body{
 		display: none;
 	}
 	#map{
-		height: 100px;
-		width: 150px;
-		float: right;
+		height: 10px;
+		width: 30px;
+		display: none;
+		
 	}
+	#img-act{
+	margin: 4px 4px 4px 4px solid black;
+	height:15%;
+	width:95%;
+	}
+	#image-text{
+	margin-top: 60%;
+	clear: right;
+	}
+	#image-text2{
+	margin-top: 80%;
+	clear: right;
+	}
+
 }
 #map {
         height: 200px;  
         width: 400px;  
-        
+        margin-top: 10%;
         margin-right: 10px;
         margin-left: 10px;
         padding-top: 50px;
@@ -160,11 +193,8 @@ input[type=submit]:hover {
 	margin: 4px 4px 4px 4px solid black;
 
 }
-#image-text{
-	color: black;
-	margin-top: 40px;
-	background-color: #3EDC66;
-}
+
+
 #readmore{
 	position: absolute; 
 	top: 50%;  
