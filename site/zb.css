@@ -41,6 +41,10 @@
   font-size: 36px;
   margin-left: 50px;
 }
+#buttonn{
+  margin-left: 35%;
+   border-radius: 20%;
+}
 #logo
 {
 	float: right;
@@ -96,6 +100,9 @@
 		float: right;
     display: none;
 	}
+  #buttonn{
+    margin-left: 20%;
+  }
 }
 
 
