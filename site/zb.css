@@ -1,7 +1,7 @@
 #navbb
 {
 	background-color: #3EDC66;
-
+  margin-top: -10px;
 }
 #navhead{
 	text-align: center; 
@@ -87,6 +87,12 @@
 	}
 	#cont{
 		width: auto;
+    background-size: 100%;
+      background: url('s.jpg' )  ; 
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+
 	}
 	#cont1{
 		font-size: 20px;
