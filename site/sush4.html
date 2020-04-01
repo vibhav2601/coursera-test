@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="isha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <style type="text/css">
+    html{
+      scroll-behavior: smooth;
+    }
+  #navbar{
+    background-color: #ADD1E7;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 250%;
+  } 
+  #section1{
+    background: url(bg1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+
+    margin-top: -40px;
+  }
+  #footer{
+    width: 100%;
+    height: 350px;
+    background-color: #01C5A2;
+    margin-top: 100px;
+  }
+  #textonmainimage{
+    padding-top: 10%;
+    font-size: 40px;
+    color: white;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #6EECBE; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  #mainbuttons{
+    margin-top: 4%;
+  }
+  #section2{
+    margin-left: 5%;
+    margin-top: 8%;
+    background: url(bg.png);
+    height: 526px;
+    background-repeat: no-repeat;
+  }
+  #headingfooter{
+    
+    font-size: 40px;
+  }
+  #textfooter{
+    font-size: 20px;"
+  }
+  #textsection2{
+    margin-left: 540px;
+  }
+  #stinkybutt{
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+  }
+    .buttonc {
+    width: 150px; /* set a width so it doesnt change upon hover */
+     
+     background: red;
+     padding: 3px 21px;
+     
+  }
+
+  .buttonc:hover span {
+    display:none
+  }
+
+  .buttonc:hover:before {
+    content:"Completed!";
+  }
+
+  .buttonc:hover {
+    background-color: green;
+  }
+  #anupphoto{
+    margin-left: 15%; 
+    height: 300px; 
+    width: 400px;"
+  }
+  #anutext{
+    float: right;
+   width: 50%;
+   padding-top: 100px;"
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+  @media screen and (max-width: 970px){
+    #section1{
+      background: url(bg1a.jpg);
+      background-repeat: no-repeat;
+      height: 318px;
+      margin-top: -90px;
+    }
+    #section2{
+      background: url(bga.jpg);
+      height: 316px;
+      background-repeat: no-repeat;
+    }
+      #textsection2{
+        margin-left: 320px;
+      }
+          }
+       #anupphoto{
+      margin-top: 50px;
+      width: 200px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 710px){
+    body{
+       font-size: 12px;
+    }
+       #anupphoto{
+      margin-top: 50px;
+      width: 150px;
+      height: 150px;
+    }
+/*    #anutext{
+      padding-top: 0px;
+      margin-top: -70px;
+    }*/
+  }
+  @media screen and (max-width: 510px){
+    body{
+      font-size: 8px;
+    }
+    #section1{
+      background: url(bg1b.jpg);
+      background-repeat: no-repeat;
+      height: 193px;
+
+    } 
+
+    #anupphoto{
+      margin-top: 50px;
+      width: 100px;
+      height: 100px;
+    }
+    #anutext{
+      padding-top: 0px;
+      margin-top: 70px;
+    }
+    #textonmainimage{
+      font-size: 15px;
+    }
+    #navbar{
+      font-size: 200%;
+      height: 50px;
+    }
+    #headingfooter{
+    
+      font-size: 20px;
+    }
+    #textfooter{
+      font-size: 10px;"
+    }
+    .button{
+      height: 30px;
+      width: 50px;
+      padding: 8px;
+      font-size: 8px;
+    }
+    #section2{
+      background: url(bgb.jpg);
+      height: 160px;
+      background-repeat: no-repeat;
+    }
+    #textsection2{
+        margin-left: 170px;
+    }
+    #stinkybuttimg{
+      height: 70px;
+      width: 70px;
+    }
+    #stinkybuttheader{
+      width: 30%;
+      height: 60px;
+
+    }
+    #footer{
+      height: 200px;
+    }
+    #stinkybutthead{
+      font-size: 16px;
+    }
+    h3{
+      font-size: 16px;
+    }
+  }
+
+
+
+    .button12 {
+    width: 300px; /* set a width so it doesnt change upon hover */
+    height: 200px;
+   background-color: #90A6DE;
+   padding: 3px 21px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   color: #ffffff;
+   font-size: 24px;
+   font-style: bold;
+   font-weight: bolder;
+   font-family: Questrial;
+   text-decoration: none;
+   vertical-align: middle;
+   letter-spacing: 2px;
+   margin: 10px;
+}
+
+.button12:hover span {
+  display:none
+}
+
+.button12:hover:before {
+  content:"Completed!";
+
+}
+.butta:hover:before{
+  content: "gyneactive";
+  
+}
+.buttb:hover:before{
+  content: "pediaactive";
+}
+.buttc:hover:before{
+  content: "orthoactive";
+}
+.buttd:hover:before{
+  content: "emeractive";
+}
+.butte:hover:before{
+  content: "gsactive";
+}
+.buttf:hover:before{
+  content: "laproactive";
+}
+.buttg:hover:before{
+  content: "neuroactive";
+}
+.butth:hover:before{
+  content: "gmactive";
+}
+.button12:hover {
+  background-color: green;
+  
+} 
+.butta:hover{
+  background: url(gyne.jpg);
+}
+.buttb:hover{
+  background: url(pedia.png);
+}
+.buttc:hover{
+  background: url(ortho.png);
+}
+.buttd:hover{
+  background: url(emergency.jpg);
+}
+.butte:hover{
+  background: url(gs.png);
+}
+.buttf:hover{
+  background: url(lapro.jpg);
+}
+.buttg:hover{
+  background: url(neuro.jpg);
+}
+.butth:hover{
+  background: url(gm.png);
+}
+@media screen and (max-width: 510px){
+  .button12{
+    height: 200px;
+    width: 150px;
+  }
+  .button12:active span{
+  display: none;
+}
+.button12:active:before{
+  content: "completed";
+}
+.butta:active:before{
+  content: "gyneactive";
+  
+}
+.buttb:active:before{
+  content: "pediaactive";
+}
+.buttc:active:before{
+  content: "orthoactive";
+}
+.buttd:active:before{
+  content: "emeractive";
+}
+.butte:active:before{
+  content: "gsactive";
+}
+.buttf:active:before{
+  content: "laproactive";
+}
+.buttg:active:before{
+  content: "neuroactive";
+}
+.butth:active:before{
+  content: "gmactive";
+}
+/*.butta:active {
+  background-color: green;
+  background: url(steth.jpg);
+}*/
+.butta:active{
+  background: url(gyne.jpg);
+}
+.buttb:active{
+  background: url(pedia.png);
+}
+.buttc:active{
+  background: url(ortho.png);
+}
+.buttd:active{
+  background: url(emergency.jpg);
+}
+.butte:active{
+  background: url(gs.png);
+}
+.buttf:active{
+  background: url(lapro.jpg);
+}
+.buttg:active{
+  background: url(neuro.jpg);
+}
+.butth:active{
+  background: url(gm.png);
+}
+.butta:active{
+  content: "gyneactive";
+}
+/*.button12:active{
+  background-color: green;
+  background: url(steth.jpg);
+}*/
+/*.button12:focus{
+  background-color: green;
+  background: url(steth.jpg);
+}*/
+.butta:focus{
+  background: url(gyne.jpg);
+}
+.buttb:focus{
+  background: url(pedia.png);
+}
+.buttc:focus{
+  background: url(ortho.png);
+}
+.buttd:focus{
+  background: url(emergency.jpg);
+}
+.butte:focus{
+  background: url(gs.png);
+}
+.buttf:focus{
+  background: url(lapro.jpg);
+}
+.buttg:focus{
+  background: url(neuro.jpg);
+}
+.butth:focus{
+  background: url(gm.png);
+}  
+  </style>
+    <script>
+window.onscroll = function() {myFunction()};
+ var recttop;
+ var recttop2;
+function onloadfunc(){
+    var img=document.getElementById("myImg");
+    var img2=document.getElementById("myImg2");
+  var rect=img.getBoundingClientRect();
+  var rect2=img2.getBoundingClientRect();
+  recttop2=rect2.top;
+  recttop=rect.top;
+  console.log(recttop+"of 1");
+  console.log(recttop2+"of 2");
+
+}
+
+function myFunction() {
+  
+  var x2=recttop2-screen.height+300;
+  
+  console.log(recttop + "is");
+
+  x=recttop-screen.height+150;
+   if (document.body.scrollTop > x || document.documentElement.scrollTop > x ) {
+    document.getElementById("myImg").className = "slideUp";
+  }
+  if (document.body.scrollTop > x2 || document.documentElement.scrollTop > x2 ) {
+    document.getElementById("myImg2").className = "slideUp";
+  }
+}
+</script>
+<style>
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+body {height:1500px;}
+.col-1 {float:left}
+.col-2 {float:left;padding-left:25px;}
+.myimg {width:180px;height:100px;visibility:hidden;}
+.myimg2 {width:180px;height:100px;visibility:hidden;}
+hr {margin-top:400px;}
+</style>
+<head>
+  <title>Sushrut Hospital</title>
+</head>
+<body onload="onloadfunc()">
+<nav id="navbar" >
+  Sushrut Hospital
+  <div style="float: right; background-image: url(logosus.jpg); width: 8%; height: 100%; border-radius: 25%;">
+    <img src="logosus.jpg" width="100%" height="100%">
+  </div>
+</nav>
+<br>
+<div style="margin-top: 100px">
+  <div id="section1">
+    <div id="textonmainimage">
+      What makes us better,<br>
+      makes you better. 
+    </div>
+    <div>
+<!--       <button class="button button1" id="mainbuttons" style="margin-left: 5%;">Request Appointment</button> -->
+      <a href="#section2"><button class="button button1" id="mainbuttons" style="margin-left: 5%;">About us</button></a>
+      <a href="#footer"><button class="button button1" id="mainbuttons" style="margin-left: 5%;">Contact</button></a>
+      <a href="#servicesoffered" ><button class="button button1" id="mainbuttons" style="float: left;">Services offered</button></a>
+
+    </div>
+  </div>
+  <div id="section2">
+    <div id="textsection2">
+      <h3 style="margin-left: 20%; margin-right: 20%;">About us</h3>
+      <p style="margin-left: 20%; margin-right: 20%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    </div>    
+  </div>
+
+ 
+
+    <div>
+       <img id="myImg" class="myimg" src="anup.jpg" width="304" height="228" style="padding-top: 100px; padding-left: 20%; width: 40%; height: 30%;">
+    <p style="float: right; width: 50%; padding-top: 100px;">Dr. Anup Agarwal is a professional serving the community since more than 20 years.After having held multiple esteemed posts of various associations, he hope to be there for you every step of the way</p>
+    <br>
+  </div>
+  <div>
+    <img id="myImg2" class="myimg2" src="anup.jpg" width="304" height="228" style="padding-top: 100px; padding-left: 20%; width: 40%; height: 30%;">
+    <p  id="anutext">Dr. Anup Agarwal is a professional serving the community since more than 20 years.After having held multiple esteemed posts of various associations, he hope to be there for you every step of the way</p>
+    <br>
+  </div>
+
+
+  <div class="container">
+    <button style="margin-left: 30%; background-color: #90A6DE; width: 40%; border-radius: 20%; margin-bottom: 60px;" id="stinkybuttheader"><h3 id="
+      stinkybutthead">Why choose us?</h3></button>
+    <div>
+      <div id="stinkybutt" style="margin-right: 3%; margin-left: 3%;">
+      <img src="suitcase.png" id="stinkybuttimg">
+      <br>
+      <h3>Effective Care</h3>
+      Getting effective treatment depends on identifying the right problem. With the help of the right doctors and the right attitude, everything can be done.</div>
+
+      <div id="stinkybutt" style="margin-right: 3%; margin-left: 3%;">
+      <img src="stetho.png" id="stinkybuttimg">
+      <br>
+      <h3>Experience</h3>
+      Every year, more than a thousand people come to Sushrut Hospital for care. Our highly specialized experts are deeply experienced in treating rare and complex conditions.</div>
+
+      <div id="stinkybutt" style="margin-left: 3%; clear: right;">
+      <img src="staff.png" height="128px" width="128px" id="stinkybuttimg">
+      <br>
+      <h3>Seamless Care</h3>
+      At Sushrut Hospital, every aspect of your care is coordinated to provide exactly the care you need. What might take months elsewhere can often be done in days here.</div>
+    </div>  
+  </div>
+  <!-- <div>Hey ma</div>
+  <button class="buttonc">
+     <span>New request</span>
+  </button> -->
+    
+  </div>
+  <div id="servicesoffered">
+    <button class="button12 butta">
+    <span>Gynecology and Obtetrics</span>
+    <button class="button12 buttb">
+    <span>Pediatrics</span>
+    <button class="button12 buttc">
+    <span>Orthopaedic surgery</span>
+    <button class="button12 buttd">
+    <span>Emergency Care</span>
+    <button class="button12 butte">
+    <span>General Surgery</span>
+        <button class="button12 buttf">
+    <span>Laproscopic surgery</span>
+        <button class="button12 buttg">
+    <span>Neurosurgery</span>
+        <button class="button12 butth">
+    <span>General Medicine</span>
+  </button>
+
+
+  </div>
+  <div style="clear: left;" id="footer">Hey bro
+
+    <p  align="center" id="headingfooter">
+      Contact Us
+    </p>
+    <p align="center"  id="textfooter">
+      Phone: +91 7800009711
+      <br>
+      Email: shmtc.lucknow@gmail.com
+      <br>
+      <br>
+      1/123, Sector-D,Priyadarshini Colony, Lucknow.
+    </p>  
+    <p align="center">
+      <a href="https://www.facebook.com/zaruratbank/" class="fa fa-facebook" ></a>
+    </p>
+    
+  </div>
+</div>
+
+</body>
+</html>
